@@ -1,104 +1,12 @@
-# Compiled class files
-/backend/*.class
-
-# Log files
-/backend/*.log
-/backend/*.out
-/backend/*.err
-
-# BlueJ files
-/backend/*.ctxt
-
-# Mobile Tools for Java (J2ME)
-/backend/.mtj.tmp/
-
-# Package Files #
-/backend/*.jar
-/backend/*.war
-/backend/*.nar
-/backend/*.ear
-/backend/*.zip
-/backend/*.tar.gz
-/backend/*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-/backend/hs_err_pid*
-/backend/replay_pid*
-
-# Spring Boot specific
-/backend/target/
-/backend/.mvn/
-/backend/.idea/
-/backend/*.iml
-/backend/mvnw
-/backend/mvnw.cmd
-/backend/.mvn/wrapper/maven-wrapper.jar
-
-# STS (Spring Tool Suite) specific
-/backend/.springBeans
-
-# IntelliJ IDEA specific
-/backend/.idea
-/backend/*.iml
-/backend/modules.xml
-/backend/.DS_Store
-
-# Eclipse specific
-/backend/.project
-/backend/.classpath
-/backend/.settings/
-/backend/*.launch
-
-# VS Code specific
-/backend/.vscode/
-
-# Node.js specific
-/node_modules/
-/npm-debug.log*
-/yarn-error.log
-/pnpm-debug.log*
-/lerna-debug.log*
-/yarn.lock
-/pnpm-lock.yaml
-/.npm/
-/.npmrc
-/.node_repl_history
-/.yarn-cache/
-/.yarn-integrity
-/.env
-/.env.local
-/.env.development.local
-/.env.test.local
-/.env.production.local
-
-# React specific
-/frontend/node_modules/
-/frontend/npm-debug.log
-/frontend/yarn-error.log
-/frontend/.yarn-integrity
-/frontend/.env
-/frontend/.next/
-/frontend/out/
-/frontend/build/
-/frontend/dist/
-/frontend/.eslintcache
-/frontend/.parcel-cache/
-/frontend/.cache/
-/frontend/.nuxt/
-/frontend/.vuepress/dist/
-/frontend/.serverless/
-/frontend/.fusebox/
-/frontend/.rpt2_cache/
-/frontend/.rts2_cache/
-/frontend/.vscode/
-/frontend/public/static/
-/frontend/.expo/
+# General Node.js and root-level exclusions
+node_modules/
+npm-debug.log
+package-lock.json
+npm-shrinkwrap.json
 
 # Dependency directories
-/.pnp/
-/.pnp.js
-/frontend/.pnp/
-/frontend/.pnp.js
+/.pnp
+.pnp.js
 
 # Editor directories and files
 .idea
@@ -109,12 +17,9 @@
 *.sln
 *.sw?
 
-# Misc
+# Miscellaneous
 .DS_Store
 Thumbs.db
-
-# Bower dependency directory (used by older Node.js projects)
-/bower_components/
 
 # Coverage directory used by testing tools like Jest or Mocha
 /coverage/
@@ -131,29 +36,6 @@ Thumbs.db
 # dotenv environment variables file
 .env
 .env.*.local
-
-# Next.js build output
-/.next/
-/out/
-
-# Gatsby files
-.cache/
-/public/
-
-# vuepress build output
-.vuepress/dist/
-
-# Serverless Framework
-.serverless/
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS port file
-.tern-port
 
 # Mac specific files
 .DS_Store

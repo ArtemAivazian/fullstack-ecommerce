@@ -56,10 +56,11 @@ spring:
         registration:
           dev:
             provider: keycloak
-            client-id: devclient
-            client-secret: Ccqr6MmWxRvqlYypqogG6PXCXN53MxYU
+            client-id: devpublicclient
+#            client-secret: Ccqr6MmWxRvqlYypqogG6PXCXN53MxYU
             authorization-grant-type: authorization_code
             scope: openid
+            redirect-uri: http://localhost:3000/
 eureka:
   client:
     service-url:

@@ -1,1 +1,53 @@
+# Compiled class files for backend
+*.class
+
+# Log files for backend
+*.log
+*.out
+*.err
+
+# BlueJ files for backend
+*.ctxt
+
+# Mobile Tools for Java (J2ME) backend
+.mtj.tmp/
+
+# Package Files for backend
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs for backend
+hs_err_pid*
+replay_pid*
+
+# Maven specific for backend
+target/
+.mvn/
+mvnw
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot specific
+.springBeans
+
+# IntelliJ IDEA specific for backend
+.idea
+*.iml
+modules.xml
+
+# Eclipse specific for backend
+.project
+.classpath
+.settings/
+*.launch
+
+# VS Code specific for backend
+.vscode/
+
+# DB data
 /data
