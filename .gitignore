@@ -1,7 +1,6 @@
 # General Node.js and root-level exclusions
 node_modules/
 npm-debug.log
-package-lock.json
 npm-shrinkwrap.json
 
 # Dependency directories
