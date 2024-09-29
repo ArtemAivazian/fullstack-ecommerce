@@ -65,4 +65,12 @@ public class ProductServiceImpl implements ProductService {
                 .map(Mapper::convertToDto)
                 .toList();
     }
+
+    @Override
+    public ProductDto getProductById(String productId) {
+        Product product = productRepository.findById(productId)
+                .orElseThrow(() -> new RuntimeException("Product not found: " + productId));
+        return Mapper.convertToDto(product);
+    }
+
 }

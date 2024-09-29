@@ -39,4 +39,7 @@ public interface ProductService {
      * @return a list of {@link ProductDto} representing all products.
      */
     List<ProductDto> getAllProducts();
+
+    ProductDto getProductById(String productId);
+
 }

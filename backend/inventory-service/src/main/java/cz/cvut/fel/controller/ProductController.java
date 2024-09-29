@@ -52,6 +52,22 @@ public class ProductController {
         return new ResponseEntity<>(productDtos, HttpStatus.OK);
     }
 
+    /**
+     * Fetches a product by its ID.
+     *
+     * This endpoint is accessible to all users and returns the product details if found.
+     *
+     * @param productId the ID of the product to be fetched.
+     * @return a {@link ResponseEntity} containing the {@link ProductDto} and HTTP status 200 (OK).
+     */
+    @GetMapping("/{id}")
+    @PreAuthorize("permitAll()")
+    public ResponseEntity<ProductDto> getProductById(@PathVariable("id") String productId) {
+        ProductDto productDto = productService.getProductById(productId);
+        return new ResponseEntity<>(productDto, HttpStatus.OK);
+    }
+
+
 
 
 }
